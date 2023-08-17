@@ -33,8 +33,7 @@ function Example() {
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>id</Form.Label>
               <Form.Control
-                type="number"
-                placeholder="Put id"
+                type= 'number' 
                 autoFocus
                 onChange={(e)=>setId(e.target.value)}
               />
